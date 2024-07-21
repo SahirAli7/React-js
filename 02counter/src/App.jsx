@@ -10,8 +10,9 @@ let min = 0
   //let counter = 5;
   const addValue = () => {
     if(counter < max){
-   setCounter(prevCounter => prevCounter + 1)
-   setCounter(prevCounter => prevCounter + 1)
+  //  setCounter(prevCounter => prevCounter + 1)
+  //  setCounter(prevCounter => prevCounter + 1)
+  setCounter(counter+1)
     }
   }
 
