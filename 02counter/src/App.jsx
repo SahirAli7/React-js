@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import react , { useState } from 'react'
+
 import './App.css'
 
 function App() {
-let [counter,setCounter] = useState(5)
+const [counter,setCounter] = useState(5)
 let max = 20
 let min = 0
 
